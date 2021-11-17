@@ -1,0 +1,70 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.nav-brand {
+  font-size: 30px;
+  color: #fff !important;
+}
+.nav_link {
+  padding: 8px 18px !important;
+  color: #fff !important;
+  margin: 10px;
+}
+.activelink {
+  background-color: rgb(239, 102, 3);
+  border-radius: 50px;
+}
+.nav_link:hover {
+  background-color: rgb(239, 102, 3);
+  border-radius: 50px;
+  transition: 0.8s;
+}
+
+/*--- banner styles ----- */
+.bannerbackground {
+  background-color: #2a2c39;
+}
+.banner-title {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 60px 0px 20px 0px;
+  font-weight: 700;
+  font-size: 48px;
+}
+.banner-content {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  padding: 25px 15px;
+}
+
+.service_cardbackground {
+  background-color: #fff;
+  box-shadow: 1px 1px 5px #888888;
+  border-radius: 6px;
+}
+.service_cardicon img {
+  width: 80px;
+  align-items: center;
+}
+.service_cardtitle a {
+  color: #2a2c39;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+}
+.services-title p {
+  font-size: 36px;
+  font-weight: 500;
+  color: #2a2c39;
+}
+
+/* form section */
+.contact-info {
+  text-align: left;
+}
+.formsection-bg {
+  background-image: url();
+}
