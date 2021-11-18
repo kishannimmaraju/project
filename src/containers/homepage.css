@@ -11,6 +11,8 @@
   padding: 8px 18px !important;
   color: #fff !important;
   margin: 10px;
+
+  text-decoration: none;
 }
 .activelink {
   background-color: rgb(239, 102, 3);
@@ -61,10 +63,10 @@
   color: #2a2c39;
 }
 
-/* form section */
-.contact-info {
-  text-align: left;
-}
+/* form section styles */
 .formsection-bg {
-  background-image: url();
+  background-color: #9bc5c3;
+}
+.formsection-inner {
+  padding: 100px 0px;
 }

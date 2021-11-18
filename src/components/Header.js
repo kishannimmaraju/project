@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -8,27 +9,27 @@ function Header() {
         <Container>
           <Navbar.Brand className="nav-brand">Metro Labs</Navbar.Brand>
           <Nav>
-            <Nav.Link href="#home" className="nav_link activelink">
+            <Link to="/" className="nav_link activelink">
               Home
-            </Nav.Link>
-            <Nav.Link href="#home" className="nav_link">
+            </Link>
+            <Link to="/about" className="nav_link">
               About
-            </Nav.Link>
-            <Nav.Link href="#home" className="nav_link">
+            </Link>
+            <Link to="/services" className="nav_link">
               Services
-            </Nav.Link>
-            <Nav.Link href="#home" className="nav_link">
+            </Link>
+            <Link to="/portfolio" className="nav_link">
               Portfolio
-            </Nav.Link>
-            <Nav.Link href="#home" className="nav_link">
+            </Link>
+            <Link to="/pricing" className="nav_link">
               Pricing
-            </Nav.Link>
-            <Nav.Link href="#home" className="nav_link">
+            </Link>
+            <Link to="team" className="nav_link">
               Team
-            </Nav.Link>
-            <Nav.Link href="#home" className="nav_link">
+            </Link>
+            <Link to="/contact" className="nav_link">
               Contact
-            </Nav.Link>
+            </Link>
           </Nav>
         </Container>
       </Navbar>

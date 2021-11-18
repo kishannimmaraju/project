@@ -6,7 +6,7 @@ function Banner() {
     <>
       <div className=" bannerbackground banner ">
         <div className="text-center container pb-3">
-          <h2 className="banner-title">Welcome to Metro Labs</h2>
+          <h2 className="banner-title">Welcome to Digital India</h2>
           <div className="text-center mx-5 ">
             <p className=" banner-content">
               Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et
@@ -16,7 +16,7 @@ function Banner() {
             </p>
           </div>
           {/* <button className="banner-button">Read More</button> */}
-          <Button variant="outline-warning">Read More</Button>
+          <Button variant="outline-warning">Click me</Button>
         </div>
       </div>
     </>
